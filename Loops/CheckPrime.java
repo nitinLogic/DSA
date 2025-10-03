@@ -16,7 +16,7 @@ public class CheckPrime {
             System.out.println(n + " is not a prime number");
         }
         else{
-            for(int i = 2; i < n; i++){
+            for(int i = 2; i <= Math.sqrt(n); i++){
                 if(n % i == 0){     //Number divisble by 1 and itself are only prime numbers
                     isPrime = false;
                     break;
