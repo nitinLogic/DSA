@@ -11,7 +11,7 @@ public class FloydTriangle {
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
                 if(count < 10)
-                    System.out.print(" " + count + " ");  //Space before digit to accomodate
+                    System.out.print(" " + count + " ");  //Accomodate space before digits less than 10
                 else
                     System.out.print(count + " ");
                 
