@@ -13,9 +13,9 @@ public class HollowRectangle {
         for(int i = 1; i <= m; i++){
             for(int j = 1; j <= n; j++){
                 
-                if(i == 1 || i == m)
+                if(i == 1 || i == m)    //Print first and last line
                     System.out.print("* ");
-                else{
+                else{           //Print rest lines
 
                     if(j == 1 || j == n)
                         System.out.print("* ");
