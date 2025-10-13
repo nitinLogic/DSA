@@ -1,4 +1,4 @@
-//This code checks if a number is prime or composite
+//This code checks if a number is prime
 import java.util.*;
 
 public class CheckPrime {
@@ -9,11 +9,11 @@ public class CheckPrime {
 
         boolean isPrime = true;
 
-        if(n == 0){
+        if(n == 1){
             System.out.println(n + " is neither prime nor composite");
         }
         else if(n == 2){
-            System.out.println(n + " is not a prime number");
+            System.out.println(n + " is a prime number");
         }
         else{
             for(int i = 2; i <= Math.sqrt(n); i++){
