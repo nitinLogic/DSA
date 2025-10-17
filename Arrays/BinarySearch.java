@@ -27,6 +27,6 @@ public class BinarySearch {
     public static void main(String args[]){
         int nums[] = {2, 4, 6, 8, 10, 12, 14};
         int key = 10;
-        System.out.println(binSearch(nums, key));
+        System.out.println("Key is at index: " + binSearch(nums, key));
     }
 }
