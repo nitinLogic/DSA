@@ -1,4 +1,4 @@
-//This code reverses an array
+//This code reverses an array in constant space
 import java.util.*;
 
 public class ReverseArr {
