@@ -4,9 +4,10 @@ import java.util.*;
 public class PairsInArray {
     public static void printPairs(int nums[]){
         int n = nums.length;
-        int pairsCnt = 0;
-        for(int i = 0; i < n - 1; i++){
-            for(int j = i + 1; j < n; j++){
+        int pairsCnt = 0;   //Total number of possible pairs
+
+        for(int i = 0; i < n - 1; i++){     //First element of each pair
+            for(int j = i + 1; j < n; j++){     //Second element of each pair
                 System.out.print("(" + nums[i] + "," + nums[j] + ")" + " ");
                 pairsCnt++;
             }
