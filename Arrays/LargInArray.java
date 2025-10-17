@@ -1,4 +1,4 @@
-//This code finda largest integer in an array
+//This code find largest integer in an array
 import java.util.*;
 
 public class LargInArray{
