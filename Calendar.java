@@ -1,5 +1,4 @@
 //This program prints calendar for any given year
-
 import java.util.*;
 
 public class Calendar {
