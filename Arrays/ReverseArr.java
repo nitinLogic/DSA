@@ -7,14 +7,14 @@ public class ReverseArr {
         int start = 0;
         int end = nums.length - 1;
 
-        //Swap array element at extreme ends
         while(start <= end){
+            //Swap array element at extreme ends
             int temp = nums[start];
             nums[start] = nums[end];
             nums[end] = temp;
 
-            start++;
-            end--;
+            start++;    //Shift start to right by one step
+            end--;      //Shift end to left by one step
         }
     }
 
