@@ -20,6 +20,7 @@ public class TrapRainwater {
 
         int water = 0;
         for(int i = 0; i < n; i++){
+            //Trapped water = (water height - bar height) * bar width
             water += Math.min(left[i], right[i]) - height[i];
         }
         System.out.println("Amount of water trapped: " + water);
