@@ -7,7 +7,7 @@ public class AnagramStr {
         str2 = str2.toLowerCase();
 
         if(str1.length() == str2.length()){
-            //Convert string to char array
+            //Convert string to character array
             char[] chArray1 = str1.toCharArray();
             char[] chArray2 = str2.toCharArray();
 
@@ -25,7 +25,7 @@ public class AnagramStr {
     }
 
     public static void main(String args[]){
-        String str1 = "eart", str2 = "heart";
+        String str1 = "earth", str2 = "heart";
         System.out.println(checkAnagram(str1, str2));
     }    
 }
