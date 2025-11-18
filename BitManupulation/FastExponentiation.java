@@ -5,6 +5,11 @@ public class FastExponentiation {
     public static int pow(int x, int n){
         int ans = 1;
 
+        //For -ve n
+        if(n < 0){
+            x = (1 / x);
+            n = Math.abs(n);
+        }
         while(n > 0){
             if((n & 1) != 0){
                 ans = ans * x;
