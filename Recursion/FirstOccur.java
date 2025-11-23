@@ -15,7 +15,7 @@ public class FirstOccur {
 
     public static void main(String args[]){
         int a[] = {2, 4, 5, 6, 8, 9, 2, 5};
-        int n = 5;
-        System.out.println("n first occures at index: " + first(a, n, 0));
+        int key = 5;
+        System.out.println("n first occures at index: " + first(a, key, 0));
     }
 }
