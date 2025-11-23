@@ -2,15 +2,15 @@
 import java.util.*;
 
 public class FirstOccur {
-    public static int first(int a[], int n, int i){
+    public static int first(int a[], int key, int i){
         //Item not present in the array
         if(i >= a.length)
             return -1;
 
         //Found
-        if(a[i] == n)
+        if(a[i] == key)
             return i;
-        return first(a, n, i + 1);
+        return first(a, key, i + 1);
     }
 
     public static void main(String args[]){
