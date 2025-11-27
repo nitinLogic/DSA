@@ -1,4 +1,4 @@
-//This code prints a given number (not ending with digit zero) into string of english
+//This code prints a given number (not ending with digit zero) as a string of english
 import java.util.*;
 
 public class NumToString {
