@@ -7,7 +7,7 @@ public class BinaryString {
             System.out.println(str);
             return;
         }
-
+        
         binString(n - 1, str + '0');
 
         if(str.length() == 0 || str.charAt(str.length() - 1) != '1')
