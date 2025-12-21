@@ -34,5 +34,11 @@ public class Operations {
 
         //Size
         System.out.println(list.size());
+
+        //Sorting
+        Collections.sort(list); //Ascending
+        System.out.println(list);
+        Collections.sort(list, Collections.reverseOrder()); //Descending
+        System.out.println(list);
     }
 }
