@@ -39,14 +39,6 @@ public class OddEvenLL {
         System.out.println("null");
     }
 
-    public void moveToEnd(Node prev, Node curr, Node oddStart){
-        prev.next = curr.next;
-        curr.next = null;
-        oddStart.next = curr;
-        oddStart = curr;
-        curr = prev.next;
-    }
-
     public void seggregateOddEven(){
         if(head == null || head.next == null)
             return;
