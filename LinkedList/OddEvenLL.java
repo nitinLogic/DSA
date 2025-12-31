@@ -48,6 +48,8 @@ public class OddEvenLL {
     }
 
     public void seggregateOddEven(){
+        if(head == null || head.next == null)
+            return;
         Node evenHead = new Node(-1);
         Node oddHead = new Node(-1);
         Node evenTail = evenHead;
