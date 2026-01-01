@@ -59,7 +59,7 @@ public class StackLinkedList {
         st.push(5);
 
         while(!st.isEmpty()){
-            System.out.print(st.peek() + " ");
+            System.out.println(st.peek());
             st.pop();
         }
     }
