@@ -42,7 +42,8 @@ public class StackArrayList {
         st.push(5);
 
         while(!st.isEmpty()){
-            System.out.print(st.pop() + " ");
+            System.out.print(st.peek() + " ");
+            st.pop();
         }
     }
 }
