@@ -33,7 +33,7 @@ public class DuplicateParenthesis {
     }
 
     public static void main(String args[]){
-        String str = "(a+b)";
+        String str = "((a+b))";
         System.out.println(isDuplicate(str));
     }
 }
